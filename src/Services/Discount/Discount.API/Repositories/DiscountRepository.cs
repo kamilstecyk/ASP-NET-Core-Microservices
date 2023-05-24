@@ -1,4 +1,6 @@
-﻿using Discount.API.Entities;
+﻿using Dapper;
+using Discount.API.Entities;
+using Npgsql;
 
 namespace Discount.API.Repositories
 {
