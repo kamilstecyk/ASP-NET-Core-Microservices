@@ -31,7 +31,7 @@ namespace Basket.API.Controllers
             return Ok(await _reposository.UpdateBasket(basket));
         }
 
-        [HttpDelete("{userName}", Name ="DeleteBasket")]
+        [HttpDelete("{username}", Name ="DeleteBasket")]
         [ProducesResponseType(typeof(void), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> DeleteBasket(string username)
         {
