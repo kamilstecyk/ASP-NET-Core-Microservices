@@ -56,6 +56,7 @@ volumes:
   mongo_data:    
   portainer_data:
   postgres_data:
+  order_data:
   pgadmin_data:
 
 
